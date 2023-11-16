@@ -1,0 +1,85 @@
+body
+{
+    --cor-um: #12242A;
+    --cor-dois: #F6E04A;
+    --cor-três: #2BFDBE;
+
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-um);
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.header-página-um
+{
+    width: 900px;
+    height: 100px;
+    background-color: var(--cor-dois);
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.header-página-dois
+{
+    width: 900px;
+    height: 200px;
+    background-color: var(--cor-dois);
+    text-align: center;
+    line-height: 200px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.colunas
+{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.coluna
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso
+{
+    width: 200px;
+    height: 100px;
+    background-color: var(--cor-três);
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.aula
+{
+    width: 900px;
+    height: 50px;
+    background-color: var(--cor-três);
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.info
+{
+    width: 200px;
+    height: 50px;
+    background-color: var(--cor-três);
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
